@@ -75,54 +75,9 @@ Start with the included data sources, then add your own. Each layer is a separat
 
 <div align="center">
 
-[![YouTube video about the God's Eye View open source release](https://img.youtube.com/vi/GRJaKcXZS94/maxresdefault.jpg)](https://www.youtube.com/watch?v=GRJaKcXZS94)
 
-▶️ **[The full walkthrough of everything below, on YouTube](https://www.youtube.com/watch?v=GRJaKcXZS94)**
 
-</div>
-
-## ⚡ Quick Start
-
-**Start without an account or API keys.** Both paths open the same app with
-Esri satellite imagery and keyless terrain. OSM is the fallback if Esri is
-unreachable. Flights, military traffic, satellites, earthquakes, public
-cameras, radio, and launches are available without keys.
-
-For photorealistic 3D, add a **Cesium ion token** for eligible personal,
-non-commercial use, or a **Google Maps key** for the direct, metered route and
-in-app place search. Provider terms and quotas apply. Add keys through the
-app's **POWER UP** panel; [Keys & Costs](#-api-keys) explains the options.
-
-### Path 1 — One click, no terminal
-
-1. Install or update [Pinokio](https://desktop.pinokio.co/) to **8.2 or later**.
-2. Open [God's Eye View in Pinokio](https://pinokio.co/apps/github-com-bilawalsidhu-gods-eye-view).
-3. Click **Install**, then **Start**.
-
-Available on **Windows, macOS, and Linux**. The Pinokio maintainer reports
-cross-platform testing of the fixed installer. The launcher installs the
-locked dependencies, finds a free local port, and opens the app.
-
-**Tried before and installation failed?** Update Pinokio and try again.
-Version 8.2 fixes the launcher installation issue;
-[details from the Pinokio maintainer](https://pinokio.co/posts/01m1m4p9xxm3qw7dnnpj2wr93g).
-
-### Path 2 — Terminal / coding agent
-
-Use **Node.js 24.x (24.14.0 or later) or 26.x**. The setup doctor warns about
-Node 25, which is end-of-life.
-
-```bash
-git clone https://github.com/Bijender123-oss/VishwaNetra.git
-cd gods-eye-view
-npm ci
-npm run doctor
-npm run dev
-```
-
-Open **`http://localhost:4173`**. Choose **Live Contacts**, **Space Missions**,
-**Environmental**, or **Explore Manually** from the first-run panel.
-
+▶️ **[T
 <details>
 <summary>Startup performance</summary>
 
